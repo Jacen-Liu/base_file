@@ -1,0 +1,73 @@
+/*
+    ****Author:Jacen
+    ****Time:2019年8月30日 13:53:12
+    ****GitHub:https://github.com/Jacen-Liu/
+*/
+
+/* 清除外边距内边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0;}
+
+/* 清除表单的outline */
+button, input, select, textarea {outline: none}
+
+/* 清除列表样式 */
+ol,ul {list-style:none;}
+li{list-style-type:none;} 
+
+/* 改变图片的默认对齐方式和清除图片的外边框 */
+img{vertical-align:baseline;border:0;}
+
+/* 清除链接样式 */
+a{color:#333;text-decoration:none;} 
+a:hover,a:focus{color:#2d374b;text-decoration:none} 
+
+/* 表格线合并 */
+table{border-collapse:collapse;border-spacing:0;}
+
+/* 上下标 */
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; }
+
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/* 清除浮动(ie6，ie7需要此属性出发haslayout) */
+.clearfix{zoom:"1"}
+
+/* 单行文本溢出省略 */
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*多行 溢出省略 */
+.ellipsis-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/*显示与隐藏 */
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+/*其他项目中所需要自定义设置的公共类 */
